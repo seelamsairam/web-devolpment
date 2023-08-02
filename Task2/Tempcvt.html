@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Temperature Converter</title>
+  <link rel="stylesheet" href="Tempcvt.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Temperature Converter</h1>
+    <div class="converter">
+      <input type="number" id="inputValue" placeholder="Enter temperature &#127777">
+      <div class="select">
+        <select id="inputUnit">
+          <option value="celsius">Celsius &#8451</option>
+          <option value="fahrenheit">Fahrenheit &#8457</option>
+          <option value="kelvin">Kelvin &#8490</option>
+        </select>
+      </div>
+      <button id="convertBtn">Convert</button>
+      <div class="select">
+        <select id="outputUnit">
+          <option value="celsius">Celsius&#8451</option>
+          <option value="fahrenheit">Fahrenheit &#8457</option>
+          <option value="kelvin">Kelvin &#8490</option>
+        </select>
+      </div>
+      <input type="text" id="outputValue" placeholder="Converted temperature &#127777" readonly>
+    </div>
+  </div>
+
+  <script src="Tempcvt.js"></script>
+</body>
+</html>
